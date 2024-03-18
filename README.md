@@ -23,6 +23,11 @@ The tutorial primarily focuses on the following concepts:
 - K-Means Clustering
 - Neural Networks
 
+## Libraries Used
+
+- Scikit-Learn
+- Tensorflow
+
 ## Credits
 
 A special thanks to [@NeuralNine](https://github.com/NeuralNine). for providing an engaging and educational data science tutorial. For an in-depth exploration, refer to the original tutorial [here](https://youtube.com/playlist?list=PL7yh-TELLS1EZGz1-VDltwdwZvPV-jliQ&si=YlZyahpTXPmJFiG4).
