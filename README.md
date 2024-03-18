@@ -16,12 +16,12 @@ PyCharm.
 
 The tutorial primarily focuses on the following concepts:
 
-### Linear Regression
-### K-Nearest Neighbours
-### Support Vector Machines
-### Decision Trees and Random Forests
-### K-Means Clustering
-### Neural Networks
+- Linear Regression
+- K-Nearest Neighbours
+- Support Vector Machines
+- Decision Trees and Random Forests
+- K-Means Clustering
+- Neural Networks
 
 ## Credits
 
