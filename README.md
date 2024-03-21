@@ -27,6 +27,9 @@ The tutorial primarily focuses on the following concepts:
 
 - Scikit-Learn
 - Tensorflow
+- Pandas
+- Numpy
+- Matplotlib
 
 ## Credits
 
