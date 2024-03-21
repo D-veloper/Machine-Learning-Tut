@@ -22,3 +22,11 @@ model.fit(total_SO2_train, free_S02_train)  # train to fit the data points
 
 print(model.score(total_SO2_test, free_SO2_test))
 
+plt.scatter(total_SO2_df, free_SO2_df)
+totalS02_values = np.linspace(10, 350, 400).reshape(-1, 1)
+plt.plot(totalS02_values, model.predict(totalS02_values), 'r')
+
+plt.xlim(left=0, right=400)  # Set upper limit for x-axis
+plt.ylim(bottom=0, top=160)  # Set upper limit for y-axis
+
+plt.show()
