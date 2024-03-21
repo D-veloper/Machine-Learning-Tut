@@ -11,3 +11,4 @@ outlier = white_wine_df.loc[white_wine_df['free sulfur dioxide'] > 250]
 # print(outlier)
 
 white_wine_df = white_wine_df.drop(outlier.index)
+# print(white_wine_df[white_wine_df.isna().any(axis=1)])
