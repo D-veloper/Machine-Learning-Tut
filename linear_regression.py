@@ -12,3 +12,5 @@ outlier = white_wine_df.loc[white_wine_df['free sulfur dioxide'] > 250]
 
 white_wine_df = white_wine_df.drop(outlier.index)
 # print(white_wine_df[white_wine_df.isna().any(axis=1)])
+total_SO2_df = white_wine_df['total sulfur dioxide'].values.reshape(-1, 1)
+free_SO2_df = white_wine_df['free sulfur dioxide'].values.reshape(-1, 1)
